@@ -15,7 +15,7 @@ TARGET = Mixer
 TEMPLATE = app
 QMAKE_CXXFLAGS=-std=c++11 -O2
 
-LIBS += -lturbojpeg
+LIBS += -lturbojpeg -ljpeg
 
 
 SOURCES += main.cpp\
